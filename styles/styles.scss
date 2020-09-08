@@ -266,7 +266,7 @@ body {
                     display: flex;
 
                     p:nth-of-type(1) {
-                        color: black;
+                        color: #313131;
                         font-size: 18px;
                         font-weight: 800;
 
@@ -342,8 +342,95 @@ body {
     .content {
         .footer-container {
             display: flex;
+            justify-content: space-between;
+            padding: 50px 0 50px 0;
 
-            .info {}
+            .left-container {
+                display: flex;
+
+                p {
+                    color: #5C5C5C;
+                    font-weight: 600;
+                }
+
+                .info {
+                    margin-right: 90px;
+
+                    p {
+                        line-height: 20px;
+                    }
+
+                    p:nth-of-type(1) {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #111111;
+                        margin-bottom: 20px;
+                    }
+
+                    p:nth-of-type(7) {
+                        margin-top: 20px;
+                    }
+                }
+
+                .vertical-nav {
+                    line-height: 30px;
+                }
+
+            }
+
+            .media {
+                color: black;
+                font-weight: 600;
+
+                margin-right: 9.8%;
+
+                .newsletter {
+
+                    p {
+                        margin-bottom: 20px;
+                    }
+
+                    .input-wrapper {
+
+
+                        .subscribe-input {
+
+                            border: none;
+                            padding: 7px 0 5px 0px;
+                        }
+
+                        .subscribe-button {
+                            text-decoration: none;
+                            font-size: 14px;
+                            background-color: #626262;
+                            color: white;
+                            font-weight: 600;
+                            margin-left: 15px;
+                            padding: 5px 10px;
+
+                        }
+                    }
+
+
+                }
+
+
+                .social-media {
+                    margin-top: 30px;
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+            }
+
+
         }
+
     }
 }
